@@ -1,11 +1,15 @@
-# backend/api/tests.py
+"""Вернуть путь к корневому каталогу KOS."""
 from http import HTTPStatus
 
 from api import models
 from django.test import Client, TestCase
 
+
 class TaskiAPITestCase(TestCase):
+    """Вернуть путь к корневому каталогу KOS."""
+
     def setUp(self):
+        """Вернуть путь к корневому каталогу KOS."""
         self.guest_client = Client()
 
     def test_list_exists(self):
