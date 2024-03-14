@@ -1,3 +1,4 @@
+"""Вернуть путь к корневому каталогу KOS."""
 import os
 from pathlib import Path
 

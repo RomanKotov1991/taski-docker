@@ -1,7 +1,10 @@
+"""Вернуть путь к корневому каталогу KOS."""
 from django.db import models
 
 
 class Task(models.Model):
+    """Вернуть путь к корневому каталогу KOS."""
+
     title = models.CharField(verbose_name='Заголовок', max_length=120)
     description = models.TextField()
     completed = models.BooleanField(default=False)
